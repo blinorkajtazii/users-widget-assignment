@@ -134,10 +134,6 @@ Networking is kept out of React components.
   - This keeps the bundle size small and avoids coupling to a heavy design system dependency.
   - The CSS is organized so it can be promoted to **tokens/SCSS modules** later if more widgets and views are added.
 
-- **Permissive CORS in development**
-  - CORS is configured to allow requests from `localhost` during development.
-  - In production, I would restrict this to known origins and environments.
-
 ---
 
 ## Not implemented (next steps)
